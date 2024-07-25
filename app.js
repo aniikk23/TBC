@@ -6,7 +6,7 @@
   });
 
 
-  document.gitquerySelector('.language-div').addEventListener('mouseout', () => {
+  document.querySelector('.language-div').addEventListener('mouseout', () => {
     document.querySelector('.eng-div').style.display = 'none';
   });
   document.querySelector('.eng-div').addEventListener('mouseout', () => {
